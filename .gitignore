@@ -1,0 +1,94 @@
+# =========================================================================
+# Git Ignore Configuration for Meter Reading Model Project
+# =========================================================================
+
+# --- Python System & Caching Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual Environments ---
+.venv/
+venv/
+ENV/
+env/
+scrap/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Jupyter Notebook Caching ---
+.ipynb_checkpoints
+
+# --- IDEs and Text Editors ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# --- OS Generated Files ---
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Model & Training Files (Weights, Artifacts, Checkpoints) ---
+# Ignore model weight directories
+saved_models/
+model_results/
+
+# Ignore common machine learning/deep learning model file extensions
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pb
+*.weights
+*.tflite
+*.ckpt
+*.pkl
+*.pickle
+*.joblib
+*.dvc
+
+# --- Configuration & Local Settings Files ---
+# Ignore primary python configuration file containing local paths
+config.py
+
+# Ignore dataset and run configuration files
+*.yaml
+*.yml
+*.json
+*.ini
+*.toml
+
+# Ignore local environment variables and credentials
+.env
+.env.local
+.env.*.local
