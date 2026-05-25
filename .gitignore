@@ -61,7 +61,6 @@ $RECYCLE.BIN/
 # --- Model & Training Files (Weights, Artifacts, Checkpoints) ---
 # Ignore model weight directories
 saved_models/
-model_results/
 
 # Ignore common machine learning/deep learning model file extensions
 *.pt
